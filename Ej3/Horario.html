@@ -1,90 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Horario</title>
+    <link rel="stylesheet" href="Estiloshorario.css">
+
 </head>
 <body>
-  <table border="1">
-    <caption><h3>Horario SMR2C</h3></caption>
-    <thead>
-        <th>Hora</th>
-        <th>Lunes</th>
-        <th>Martes</th>
-        <th>Miercoles</th>
-        <th>Jueves</th>
-        <th>Viernes</th>
-    </thead>
-    <thead>
-    <tr>
-        <td>15:30-16:25</td>
-        <td>Servicios en Red</td>
-        <td>Aplicaciones Web</td>
-        <td>Inglés Técnico</td>
-        <td>Sistemas Operativos en Red</td>
-        <td>Seguridad Informatica</td>
-    </tr>
-    </thead>
-    <thead>
+    <table>
+        <caption>
+            <h3>Horario SMR2C</h3>
+        </caption>
+        <thead>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </thead>
         <tr>
-            <td>16:25-17:20</td>
-            <td>Servicios en Red</td>
-            <td>Aplicaciones Web</td>
-            <td>Aplicaciones Web</td>
-            <td>Sistemas Operativos en Red</td>
-            <td>Seguridad Informatica</td>
+            <td class="Horas">15:30-16:25</td>
+            <td rowspan="2" class="SR">Servicios en Red</td>
+            <td rowspan="2" class="AW">Aplicaciones Web</td>
+            <td class="ING">Inglés Técnico</td>
+            <td rowspan="2" class="SOR">Sistemas Operativos en Red</td>
+            <td rowspan="2" class="SI">Seguridad Informatica</td>
         </tr>
-    </thead>
-    <thead>
+         <tr>
+            <td class="Horas">16:25-17:20</td>
+            <td rowspan="2" class="AW">Aplicaciones Web</td>
+        </tr>
         <tr>
-            <td>17:20-18:15</td>
-            <td>Sistemas Operativos en Red</td>
-            <td>Sistemas Operativos en Red</td>
-            <td>Aplicaciones Web</td>
-            <td>Servicios en Red</td>
-            <td>Servicios en Red</td>
+            <td class="Horas">17:20-18:15</td>
+            <td class="SOR">Sistemas Operativos en Red</td>
+            <td class="SOR">Sistemas Operativos en Red</td>
+            <td class="SR">Servicios en Red</td>
+            <td class="SR">Servicios en Red</td>
         </tr>
-    </thead>
-    <thead>
         <tr>
-            <td>18:15-18:30</td>
-            <td colspan="5">Recreo</td>
+            <td class="Horas">18:15-18:30</td>
+            <td colspan="5" class="Break">Recreo</td>
         </tr>
-    </thead>
-    <thead>
         <tr>
-            <td>18:20-19:25</td>
-            <td>Seguridad Informatica</td>
-            <td>Inglés Técnico</td>
-            <td>Aplicaciones Web</td>
-            <td>Servicios en Red</td>
-            <td>Servicios en Red</td>
+            <td class="Horas">18:20-19:25</td>
+            <td rowspan="2" class="SI">Seguridad Informatica</td>
+            <td class="ING">Inglés Técnico</td>
+            <td class="AW">Aplicaciones Web</td>
+            <td class="AW">Servicios en Red</td>
+            <td class="SR">Servicios en Red</td>
         </tr>
-    </thead>
-    <thead>
         <tr>
-            <td>19:25-20:20</td>
-            <td>Seguridad Informatica</td>
-            <td>Servicios en Red</td>
-            <td>Sistemas Operativos en Red</td>
-            <td>Empresa</td>
-            <td>Sistemas Operativos en Red</td>
+            <td class="Horas">19:25-20:20</td>
+            <td rowspan="2" class="SR">Servicios en Red</td>
+            <td rowspan="2" class="SOR">Sistemas Operativos en Red</td>
+            <td rowspan="2" class="EM">Empresa</td>
+            <td rowspan="2" class="SOR">Sistemas Operativos en Red</td>
         </tr>
-    </thead>
-    <thead>
         <tr>
-            <td>20:20-21:15</td>
-            <td>Empresa</td>
-            <td>Servicios en Red</td>
-            <td>Sistemas Operativos en Red</td>
-            <td>Empresa</td>
-            <td>Sistemas Operativos en Red</td>
+            <td class="Horas">20:20-21:15</td>
+            <td class="EM">Empresa</td>
         </tr>
-    </thead>
-
-        
-  </table>  
+         </table>
 </body>
+
 </html>

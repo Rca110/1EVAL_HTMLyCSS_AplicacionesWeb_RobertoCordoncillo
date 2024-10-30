@@ -1,0 +1,46 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 0px;    
+}
+
+table th {
+background-color: red;
+color: white
+}
+
+td.Horas {
+    background-color: blue;
+    color:white;
+}
+
+td.SR {
+    background-color: rgb(32, 140, 223);
+}
+
+td.SI {
+    background-color: green;
+}
+
+td.AW {
+    background-color:rgb(255, 84, 255) ;
+}
+
+td.EM {
+    background-color: red;
+}
+
+td.ING {
+    background-color: orange;
+}
+
+td.SOR {
+    background-color: rgb(189, 189, 83);
+}
+
+td.Break {
+    background-color: rgb(255, 255, 255);
+}
+
+

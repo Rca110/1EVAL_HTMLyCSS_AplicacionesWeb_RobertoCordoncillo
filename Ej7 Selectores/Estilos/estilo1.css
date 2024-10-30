@@ -1,0 +1,45 @@
+*{
+    background-color: purple;
+}
+
+p{
+    color:white
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:gold
+}
+
+p.explicacion {
+    color: greenyellow
+}
+
+p.texto{
+    color: green
+}
+
+p#hola {
+    color:aliceblue
+}
+
+/*selectores descendientes*/
+
+div p {
+    background-color: yellow;
+    color: black
+}
+
+footer li {
+    background-color: black;
+    color: yellow
+}
+
+footer {
+    margin: ;
+    padding: ;
+    border:  2px yellow double;
+}
+
+div {
+    
+}

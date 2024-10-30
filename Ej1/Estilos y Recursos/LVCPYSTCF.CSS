@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 0%;
+}
+
+p.Autor {
+    margin: 2%;
+}
+
+

@@ -1,5 +1,5 @@
 body {
-    background-image: ;
+    background-color: yellow;
 }
 
 table {
@@ -28,7 +28,7 @@ td.SI {
     background-color: green;
 }
 
-td.AW {
+td.SOR {
     background-color:rgb(255, 84, 255) ;
 }
 
@@ -37,15 +37,21 @@ td.EM {
 }
 
 td.ING {
-    background-color: orange;
+    background-color: rgb(244, 120, 5);
 }
 
-td.SOR {
+td.AW    {
     background-color: rgb(189, 189, 83);
 }
 
 td.Break {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(227, 223, 223);
 }
 
+hr {color: black;
+}
+
+dl dt { font-weight: bold;
+        font-style: initial;
+}
 
